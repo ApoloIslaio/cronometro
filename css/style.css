@@ -1,0 +1,95 @@
+@font-face{
+    font-family: 'numero-relogio';
+    src: url(../fontes/DS-DIGIT.TTF) format('truetype');
+}
+@font-face{
+    font-family: 'btn-digital';
+    src: url(../fontes/DS-DIGII.TTF) format('truetype');
+}
+ 
+@font-face{
+    font-family: 'texto-btn';
+    src: url(../fontes/Minecraft.ttf) format('truetype');
+}
+
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #000f08;
+}
+.main{
+    width:50%;
+    height:50%;
+    margin: 150px auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+
+
+}
+.time{
+    padding:10px;
+
+
+
+}
+.time h1{
+    font-family: 'numero-relogio', arial, sans-serif ;
+    font-size: 5em;
+    padding: 4px;
+    color: #EB8A01;
+}
+.acoes{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    
+     
+}
+.acoes input{
+    padding: 5px 10px;
+    border: 1px solid #736b60; 
+    border-radius: 8px;
+    font-family: 'btn-digital', arial;
+    font-size: 18px;
+    color: white;
+}
+.btn-iniciar{
+    background-color: #4d8b31;
+    
+}
+.btn-iniciar:hover{
+    background-color: #396424;
+}
+
+.btn-parar{
+    background-color:#95190c ;
+}
+.btn-parar:hover{
+    background-color:#6d140a ;
+}
+.btn-limpar{
+    background-color: #00619E;
+}
+.btn-limpar:hover{
+    background-color: #025183;
+}
+
+/* 
+    000f08
+    eb8a01
+    736b60
+    fcfff7
+    - 4d8b31
+    - 95190c
+    - #00619E
+*/
