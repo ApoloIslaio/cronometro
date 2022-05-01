@@ -84,6 +84,35 @@ body{
     background-color: #025183;
 }
 
+.time_salvo{
+    color: #EB8A01;
+    font-family: 'btn-digital';
+}
+.mostrar_tempo{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.caixa_time{
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-excluir{
+    background-color: #95190c;
+    padding: 2px 5px;
+    margin-right: 50px;
+    border: 1px solid #736b60; 
+    border-radius: 4px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
 /* 
     000f08
     eb8a01
